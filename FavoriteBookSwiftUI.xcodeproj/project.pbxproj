@@ -56,11 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				DD90FA7B2B2342FB0030114E /* FavoriteModels.swift */,
-				DD815D562B225535001B2A73 /* FavoriteBookSwiftUIApp.swift */,
+				DD90FA7D2B2347B10030114E /* DetailsView.swift */,
 				DD815D582B225535001B2A73 /* ContentView.swift */,
+				DD815D562B225535001B2A73 /* FavoriteBookSwiftUIApp.swift */,
 				DD815D5A2B225536001B2A73 /* Assets.xcassets */,
 				DD815D5C2B225536001B2A73 /* Preview Content */,
-				DD90FA7D2B2347B10030114E /* DetailsView.swift */,
 			);
 			path = FavoriteBookSwiftUI;
 			sourceTree = "<group>";

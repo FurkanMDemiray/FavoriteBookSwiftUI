@@ -8,11 +8,23 @@
 import SwiftUI
 
 struct DetailsView: View {
+
+    var chosenFavoriteElement: FavoriteElements
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image(chosenFavoriteElement.imageName)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            Text(chosenFavoriteElement.name)
+                .padding()
+            Text(chosenFavoriteElement.description)
+                .padding()
+                .font(.footnote)
+        }
     }
 }
 
 #Preview {
-    DetailsView()
+    DetailsView(chosenFavoriteElement: theGodfather)
 }
