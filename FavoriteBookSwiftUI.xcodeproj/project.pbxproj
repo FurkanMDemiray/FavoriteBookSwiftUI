@@ -11,6 +11,7 @@
 		DD815D592B225535001B2A73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD815D582B225535001B2A73 /* ContentView.swift */; };
 		DD815D5B2B225536001B2A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD815D5A2B225536001B2A73 /* Assets.xcassets */; };
 		DD815D5E2B225536001B2A73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD815D5D2B225536001B2A73 /* Preview Assets.xcassets */; };
+		DD90FA7C2B2342FB0030114E /* FavoriteModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD90FA7B2B2342FB0030114E /* FavoriteModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DD815D582B225535001B2A73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD815D5A2B225536001B2A73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD815D5D2B225536001B2A73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD90FA7B2B2342FB0030114E /* FavoriteModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		DD815D552B225535001B2A73 /* FavoriteBookSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				DD90FA7B2B2342FB0030114E /* FavoriteModels.swift */,
 				DD815D562B225535001B2A73 /* FavoriteBookSwiftUIApp.swift */,
 				DD815D582B225535001B2A73 /* ContentView.swift */,
 				DD815D5A2B225536001B2A73 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			files = (
 				DD815D592B225535001B2A73 /* ContentView.swift in Sources */,
 				DD815D572B225535001B2A73 /* FavoriteBookSwiftUIApp.swift in Sources */,
+				DD90FA7C2B2342FB0030114E /* FavoriteModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
